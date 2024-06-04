@@ -1,0 +1,11 @@
+/*** SECTIONS STYLES ***/
+
+section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 95px;
+}
+
+.container {
+  max-width: 1200px;
+}
