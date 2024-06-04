@@ -1,0 +1,42 @@
+<section id="section-form" class="container">
+  <h2>O Clube Dungeons & Dragons</h2>
+  <p>
+    Para deter Vecna, os heróis de Stranger Things também precisam de você. O
+    Clube de D&D mais famoso de Hawkings está com vagas abertas para sua
+    próxima aventura. Se você é destemido, gosta de desafios e não tem medo de
+    rodar o D20, chegou a hora de se inscrever para fazer parte da nova
+    campanha.
+  </p>
+
+  <div class="form-content">
+    <h3>
+      Entre para o clube de D&D e tenha experiências de
+      <span>outro mundo</span>
+    </h3>
+
+    <div class="form-container">
+      <form>
+        <label for="name">Nome Completo</label>
+        <input type="text" name="name" id="txtName" />
+
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="txtEmail" />
+
+        <label for="level">Level</label>
+        <input type="text" name="level" id="txtLevel" />
+
+        <label for="character">Personagem</label>
+        <textarea
+          name="character"
+          cols="30"
+          rows="10"
+          id="txtCharacter"
+        ></textarea>
+
+        <button type="button" id="btnSubscribe" (click)="subscribe()">
+          Me inscrever
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
