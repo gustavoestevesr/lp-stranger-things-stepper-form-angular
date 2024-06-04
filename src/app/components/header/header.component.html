@@ -1,0 +1,26 @@
+<header aria-label="Cabeçalho da página.">
+  <audio id="music" autoplay>
+    <source
+      src="assets/musics/normal-world.mpeg"
+      aria-details="Audio do site"
+    />
+  </audio>
+  <div class="header-content">
+    <img
+      class="invert-element"
+      src="assets/images/banner/logo.svg"
+      alt="Imagem principal Mundo Invertido."
+    />
+    <p class="invert-element" role="text">
+      Uma jornada para quem não tem medo do desconhecido. O caminho para o Mundo
+      invertido é incerto, repleto de obstáculos e perigos. Porém, a recompensa
+      é grande: salvar Hawkings e o mundo todo das garras de Vecna. Você está
+      preparado? Então clique no botão abaixo para entrar no Mundo Invertido!
+    </p>
+    <button id="switch-theme-button" (click)="toggleThemeEmitter()">
+      Inverter Mundos
+    </button>
+  </div>
+
+  <div id="top-characters" class="world-characters"></div>
+</header>
