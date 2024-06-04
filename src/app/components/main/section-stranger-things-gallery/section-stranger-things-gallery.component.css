@@ -1,0 +1,46 @@
+/* Section 03 - Stranger Things Gallery */
+
+.container {
+  max-width: 1200px;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 95px;
+}
+
+#section-stranger-things-gallery {
+  width: 100%;
+  background: var(--background-lamp-image) 120% / 50% no-repeat;
+  justify-content: center;
+}
+
+#section-stranger-things-gallery .container {
+  width: 100%;
+}
+
+#section-stranger-things-gallery .container h2 {
+  width: 800px;
+}
+
+#section-stranger-things-gallery .gallery-container {
+  display: flex;
+  gap: 50px;
+  padding-left: 20px;
+}
+
+#section-stranger-things-gallery .gallery-image {
+  width: 250px;
+  height: 250px;
+  outline: 20px solid var(--highlight-color);
+  border: 3px solid var(--primary-color);
+  box-sizing: initial;
+}
+
+#section-stranger-things-gallery .gallery-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 10px solid var(--highlight-color);
+}
