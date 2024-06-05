@@ -1,7 +1,20 @@
 <main>
+  <!-- bottom-characters -->
   <div id="bottom-characters" class="world-characters"></div>
-  <app-section-inverted-world></app-section-inverted-world>
-  <app-section-stranger-things-trailer></app-section-stranger-things-trailer>
-  <app-section-stranger-things-gallery></app-section-stranger-things-gallery>
-  <app-section-dungeons-dragons-form></app-section-dungeons-dragons-form>
+  <!-- section-inverted-world -->
+  <ng-container @defer (on viewport)>
+    <app-section-inverted-world></app-section-inverted-world>
+  </ng-container>
+  <!-- section-stranger-things-trailer -->
+  <ng-container @defer (on viewport)>
+    <app-section-stranger-things-trailer></app-section-stranger-things-trailer>
+  </ng-container>
+   <!-- section-stranger-things-gallery -->
+   <ng-container @defer (on viewport)>
+    <app-section-stranger-things-gallery></app-section-stranger-things-gallery>
+   </ng-container>
+  <!-- section-dungeons-dragons-form -->
+   <ng-container @defer (on viewport)>
+    <app-section-dungeons-dragons-form></app-section-dungeons-dragons-form>
+  </ng-container>
 </main>
