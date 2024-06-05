@@ -17,8 +17,16 @@ section {
   text-align: center;
 }
 
-#section-form h2 {
-  width: 600px;
+#section-form .section-texts {
+  max-width: 1200px;
+  margin-bottom: 40px;
+}
+
+#section-form .section-texts p {
+  margin: auto;
+  max-width: 950px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 #section-form .form-content h3 {
@@ -31,6 +39,7 @@ section {
 
 #section-form .form-content {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
