@@ -101,3 +101,13 @@ section {
       opacity: 1;
   }
 }
+
+@media screen and (max-width: 892px) {
+  #section-form .form-content {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 95px;
+  }
+}
+
