@@ -1,5 +1,8 @@
 <div [ngClass]="{ 'dark-theme': darkTheme, 'light-theme': !darkTheme }">
   <app-header (darkThemeOutput)="toggleThemeReceiver($event)"></app-header>
   <app-main></app-main>
-  <app-footer></app-footer>
+  <!-- LAZY LOADING FOOTER -->
+  <ng-container @defer (on viewport)>
+    <app-footer></app-footer>
+  </ng-container>
 </div>
