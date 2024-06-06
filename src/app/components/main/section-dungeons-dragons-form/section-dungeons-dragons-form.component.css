@@ -2,6 +2,7 @@
 
 .container {
   max-width: 1200px;
+  padding: 0 40px;
 }
 
 section {
@@ -25,8 +26,6 @@ section {
 #section-form .section-texts p {
   margin: auto;
   max-width: 950px;
-  padding-left: 40px;
-  padding-right: 40px;
 }
 
 #section-form .form-content h3 {
