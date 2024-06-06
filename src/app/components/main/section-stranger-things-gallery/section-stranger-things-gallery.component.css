@@ -6,7 +6,7 @@
 
 section {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-bottom: 95px;
 }
 
@@ -17,7 +17,7 @@ section {
 }
 
 #section-stranger-things-gallery .container {
-  width: 100%;
+  width: 1200px;
 }
 
 #section-stranger-things-gallery .container h2 {

@@ -6,13 +6,19 @@
 
 section {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   margin-bottom: 95px;
+}
+
+#section-stranger-things-trailer {
+  align-items: center;
 }
 
 #section-stranger-things-trailer .section-texts {
   width: 50%;
   text-align: right;
+  margin-top: 40px;
 }
 
 #section-stranger-things-trailer .section-texts h2 {
